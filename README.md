@@ -31,13 +31,60 @@ Accurate house price prediction guides investment strategy, city planning, and p
 - 📓 Organized reusable Python scripts & Jupyter notebooks for reproducibility  
 - 🧹 Performed missing-value imputation, outlier detection, one-hot encoding, and log transformation  
 - ⚙️ Tuned `Random Forest` & `XGBoost` using `GridSearchCV` for optimal performance  
-- 📊 Created compelling visualizations:
+- 📊 Created compelling visualizations: heatmaps, Q-Q plots, residual analysis, model comparison charts  
+
+---
+
+## 🧰 Tech Stack
+
+| Tool         | Role                  |
+|--------------|------------------------|
+| 🐍 Python 3.8+ | Programming Language  |
+| 📦 pandas, NumPy | Data Manipulation    |
+| 🎯 scikit-learn | ML & Statistical Models |
+| ⚡ XGBoost      | Gradient Boosting     |
+| 📈 matplotlib, seaborn | Visualization  |
+| 📓 Jupyter Notebook | Interactive Analysis |
+
+---
+
+## 🔬 Methodology
+
+### 1. 📊 Data Preprocessing
+- Imputed missing bedroom values with mean  
+- Detected outliers using IQR and visual inspection  
+- Log-transformed skewed features (Boston dataset)  
+- One-hot encoded categorical data (e.g., ocean proximity)  
+- Split dataset into 80% training and 20% testing  
+
+### 2. 🧠 Model Building
+- **Statistical Models**  
+  - Linear Regression (OLS & Gradient Descent)  
+  - Ridge Regression  
+
+- **Machine Learning Models**  
+  - K-Nearest Neighbors  
+  - Random Forest  
+  - XGBoost  
+
+- Applied `GridSearchCV` for hyperparameter tuning
+
+### 3. 🧪 Evaluation
+- Metrics:  
+  - Mean Squared Error (MSE)  
+  - Root Mean Squared Error (RMSE)  
+  - R² Score  
+
+- Visualization:  
+  - Q-Q and residual plots  
+  - Scatter plots (predicted vs actual)  
+  - Bar charts for metric comparison  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you’d like to improve this project, feel free to:
+Contributions are welcome!
 
 1. Fork the repo  
 2. Create a new branch: `git checkout -b feature/YourFeature`  
@@ -46,15 +93,10 @@ Contributions are welcome! If you’d like to improve this project, feel free to
 5. Push: `git push origin feature/YourFeature`  
 6. Open a Pull Request
 
-Please follow [PEP8](https://peps.python.org/pep-0008/) coding style and add comments to help others understand your logic. If you’re working on something big, feel free to open an issue first to discuss it. Happy coding!
+Please follow [PEP8](https://peps.python.org/pep-0008/) and document new features clearly.
 
 ---
 
-MIT License
+## 📄 License
 
-Copyright (c) 2024 Shahbaz Sharif
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software... [truncated for brevity]
-
-You can copy the full license template [here](https://choosealicense.com/licenses/mit/) and swap in your name.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
